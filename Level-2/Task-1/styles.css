@@ -81,5 +81,5 @@ input::-webkit-inner-spin-button {
 @media (max-width: 1080px){
   .calculator{
     width: 70%; 
-    /* margin: 20vh auto; */
+    margin: 150px auto; 
   }
