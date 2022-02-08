@@ -10,7 +10,7 @@ html{
 button{
   background-color: #4B47B1;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   margin-left: 0;
   margin-right: 0;
   height: 70px;
@@ -86,6 +86,7 @@ input::-webkit-inner-spin-button {
   .calculator{
     width: 70%;
     margin: 400px auto;
+    border: 1px solid black;
   }
   .display{
     width: 100%;
@@ -94,5 +95,8 @@ input::-webkit-inner-spin-button {
   button{
     height: 120px;
     font-size: 1.33rem;
+  }
+    input{
+    font-size: 1.5rem;
   }
 }
