@@ -71,7 +71,7 @@ input::-webkit-inner-spin-button {
 }
 .answer{
   padding-right: 5px;
-  padding-top: 60%;
+  padding-top: 70%;
   text-align: right;
   /* width: 198px; */
   border-top-left-radius: 0;
@@ -86,7 +86,6 @@ input::-webkit-inner-spin-button {
   .calculator{
     width: 70%;
     margin: 400px auto;
-    border: 1px solid black;
   }
   .display{
     width: 100%;
@@ -97,6 +96,6 @@ input::-webkit-inner-spin-button {
     font-size: 1.33rem;
   }
     input{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 }
