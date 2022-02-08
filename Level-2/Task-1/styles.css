@@ -85,15 +85,14 @@ input::-webkit-inner-spin-button {
 @media (max-width: 1080px){
   .calculator{
     width: 70%;
-    margin: 76.10350076103501vh auto;
-    border: 1px solid black;
+    margin: 550px auto;
   }
   .display{
     width: 100%;
-    /* height: 200px; */
+    min-height: 200px;
   }
   button{
-    height: 18.264840182648403vh;
+    height: 120px;
     font-size: 1.33rem;
   }
 }
