@@ -13,7 +13,7 @@ button{
   font-size: 1.2rem;
   margin-left: 0;
   margin-right: 0;
-  height: 10.654490106544902vh;
+  height: 70px;
   border: 1px solid rgba(99, 95, 217, 0.2);
   background-clip: padding-box;
 }
@@ -30,13 +30,13 @@ button{
 .calculator{
   /* display: grid;
   grid-template-rows: 25% 75%; */
-  width: 29.282576866764277vw;
-  height: 68.4931506849315;
+  width: 400px;
+  height: 450px;
   border-radius: 20px;
   margin: 100px auto;
 }
 .buttons{
-  min-height: 15.220700152207002vh;
+  min-height: 100px;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-column-gap: 0;
@@ -81,4 +81,18 @@ input::-webkit-inner-spin-button {
 }
 .input{
   padding-left: 5px;
+}
+@media (max-width: 1080px){
+  .calculator{
+    width: 70%;
+    margin: 400px auto;
+  }
+  .display{
+    width: 100%;
+    min-height: 200px;
+  }
+  button{
+    height: 120px;
+    font-size: 1.33rem;
+  }
 }
