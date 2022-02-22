@@ -102,7 +102,7 @@ input{
 }
 @media screen and (max-width: 800px) {
   body{
-    background-color: blue;
+    background-color: red;
   }
   .todo-container{
     width: 80%;
