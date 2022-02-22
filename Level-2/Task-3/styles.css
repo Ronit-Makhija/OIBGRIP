@@ -100,11 +100,14 @@ input{
   color: #cfcfcf;
   text-decoration: line-through;
 }
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   body{
-    background-color: red;
+    background-color: blue;
   }
   .todo-container{
     width: 80%;
+  }
+  ul{
+    max-height: 400px;
   }
 }
