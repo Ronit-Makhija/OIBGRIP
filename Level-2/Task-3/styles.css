@@ -100,14 +100,21 @@ input{
   color: #cfcfcf;
   text-decoration: line-through;
 }
+
 @media screen and (max-width: 800px) {
-  body{
-    background-color: red;
-  }
+  /* body{
+    background-color: blue;
+  } */
   .todo-container{
     width: 80%;
   }
   ul{
     max-height: 400px;
+  }
+  h1{
+    margin-top: 21%;
+  }
+  .date-header i{
+    margin-left: 87%;
   }
 }
