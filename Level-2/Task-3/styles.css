@@ -102,9 +102,6 @@ input{
 }
 
 @media screen and (max-width: 800px) {
-  body{
-    background-color: blue;
-  } 
   .todo-container{
     width: 80%;
   }
@@ -112,7 +109,7 @@ input{
     max-height: 80%;
   }
   h1{
-    margin-top: 28%;
+    margin-top: 31%;
   }
   .date-header i{
     margin-left: 87%;
