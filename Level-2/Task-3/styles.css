@@ -102,15 +102,14 @@ input{
 }
 
 @media screen and (max-width: 800px) {
-  body{
+/*   body{
     background-color: blue;
-  } 
+  }  */
   .todo-container{
-    position: absolute;
     width: 80%;
   }
   ul{
-    max-height: 400px;
+    max-height: 80%;
   }
   h1{
     margin-top: 25%;
