@@ -100,3 +100,8 @@ input{
   color: #cfcfcf;
   text-decoration: line-through;
 }
+@media only screen and (max-width: 600px) {
+  .todo-container{
+    width: 80%;
+  }
+}
