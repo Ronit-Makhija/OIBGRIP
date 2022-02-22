@@ -1,0 +1,102 @@
+body,html{
+  height: 100%;
+  padding: 30px 0;
+  background-color: #e5e5e5;
+  font-family: 'Noto Sans', sans-serif;
+}
+.todo-container{
+  width: 30%;
+  height: 100%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.date-header{
+  background-image: url("https://i.pinimg.com/736x/99/a5/fc/99a5fcd40038a88b358be5f2cffa442a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.todo-content{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.date-header i{
+  color: white;
+  margin-top: 4%;
+  margin-left: 89%;
+  cursor: pointer;
+}
+h1{
+  color: white;
+  margin-top: 17%;
+  margin-left: 10px;
+}
+.item{
+  display: flex;
+  border-bottom: 1px solid #f3f3f3;
+  margin-bottom: 10px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  max-height: 300px;
+  padding: 0;
+  padding: 10px 0 0 0;
+  flex: 6;
+  overflow-y: scroll;
+}
+ul::-webkit-scrollbar {
+    display: none;
+}
+.item i{
+  flex: 1;
+  padding-top: 5px;
+  cursor: pointer;
+}
+.delete:hover{
+  color: #ce2029;
+}
+.item p{
+  flex: 9;
+}
+.checkbox{
+  margin-left: 10px;
+}
+.input-div{
+  font-family: 'Noto Sans', sans-serif;
+  border-top: 2px solid #f3f3f3;
+  flex: 1;
+  padding: 0 0 0 8px;
+  display: flex;
+  align-items: center;
+}
+.input-div i{
+  color: blue;
+  flex: 1;
+  cursor: pointer;
+}
+input{
+  border: 0;
+  outline: 0;
+  flex: 8;
+}
+::placeholder {
+  color: blue;
+}
+.fa-circle-check{
+  color: green;
+}
+.todo{
+  word-break: break-all;
+}
+.todo2{
+  color: #cfcfcf;
+  text-decoration: line-through;
+}
